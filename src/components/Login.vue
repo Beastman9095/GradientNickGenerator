@@ -282,8 +282,6 @@ p3 {
   height: 70px;
 }
 .output {
-  src: url("//db.onlinewebfonts.com/t/6ab539c6fc2b21ff0b149b3d06d7f97c.eot");
-  font-family: 'Minecraft';
   font-weight: normal;
   font-style: normal;
   border: 2px solid #3D4446;
