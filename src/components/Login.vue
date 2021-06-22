@@ -395,4 +395,3 @@ html[data-theme='dark'] {
   scroll-behavior: smooth;
 }
 </style>
-
