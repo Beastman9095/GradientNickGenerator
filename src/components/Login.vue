@@ -363,8 +363,10 @@ input {
     resize: both;
   }
   .container {
-    display: grid;
+    display: flex;
     gap: 50px;
+    align-items: flex-start;
+    justify-content: center;
   }
   .container input:hover {
     padding: 10px 10px;
@@ -375,6 +377,9 @@ input {
     padding: 10px 10px;
     width: 25px;
     height: 25px;
+  }
+  .container label {
+    height: auto;
   }
 }
 html[data-theme='dark'] {
