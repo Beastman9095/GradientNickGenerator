@@ -40,7 +40,7 @@
         <label for="firstcolor">Select the first color:</label>
         <form action="/action_page.php">
           <br>
-          <input v-model="firstcolor" @change="log()" type="color" id="firstcolor" name="firstcolor" value="#00FFFF">
+          <input v-model="firstcolor" @change="log()" type="color" id="firstcolor" name="firstcolor">
         </form>
       </div>
       <div class="checkboxes">
@@ -53,7 +53,7 @@
         <label for="secondcolor">Select the second color:</label>
         <form action="/action_page.php">
           <br>
-          <input v-model="secondcolor" @change="log()" type="color" id="secondcolor" name="secondcolor" value="#00FFFF">
+          <input v-model="secondcolor" @change="log()" type="color" id="secondcolor" name="secondcolor">
         </form>
       </div>
     </div>
@@ -153,30 +153,25 @@ b {
   font-weight: bold;
   margin: 5px;
 }
-
 .container .user{
   grid-column-start: 1;
   grid-column-end: 1;
 }
-
 .container .checkboxes{
   grid-column-start: 2;
   grid-column-end: 2;
 }
-
 .container .checkboxes label{
   vertical-align: middle;
   height: 100px;
   line-height: 100px;
 }
-
 .container .checkboxes input{
   background-color: #151718;
   vertical-align: middle;
   height: 80px;
   line-height: 80px;
 }
-
 .container .checkboxes input:focus{
   vertical-align: middle;
   height: 80px;
@@ -184,12 +179,10 @@ b {
   width: 25px;
   height: 25px;
 }
-
 .container .password{
   grid-column-start: 3;
   grid-column-end: 3;
 }
-
 .input input {
   margin-top: 8% !important;
   font-size: 20px;
@@ -203,7 +196,6 @@ b {
   resize: none;
   transition: 0.2s;
 }
-
 p2 {
   text-align: center !important;
   font-size: 25px;
@@ -214,7 +206,6 @@ p2 {
   resize: none;
   transition: 0.2s;
 }
-
 p3 {
   color: #C2DACB;
   font-size: 15px;
@@ -222,7 +213,6 @@ p3 {
   transition: 0.2s;
   overflow-wrap: break-word;
 }
-
 .cmiformat {
   border: 2px solid #3D4446;
   display: inline-block;
@@ -232,18 +222,15 @@ p3 {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-
 .input input:hover {
   padding: 10px 10px;
   width: 300px;
   height: 50px;
 }
-
 .input input:focus {
   width: 300px;
   height: 50px;
 }
-
 .container input {
   width: 25px;
   height: 25px;
@@ -254,18 +241,15 @@ p3 {
   resize: none;
   transition: 0.2s;
 }
-
 .container input:hover {
   padding: 10px 10px;
   width: 50px;
   height: 50px;
 }
-
 .container input:focus {
   width: 50px;
   height: 50px;
 }
-
 .container .user .InputText input {
   width: 150px;
   height: 30px;
@@ -276,7 +260,6 @@ p3 {
   resize: none;
   transition: 0.2s;
 }
-
 .container .user .InputText input:hover {
   width: 200px;
   height: 70px;
@@ -292,24 +275,19 @@ p3 {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-
 .container .user .InputText input:focus {
   width: 200px;
   height: 70px;
 }
-
 label {
   color: #C2DAEE;
 }
-
 p {
   color: #C2DAEE;
 }
-
 h1 {
   color: #C2DAEE;
 }
-
 .container2 {
   position: fixed;
   display: flex;
@@ -324,14 +302,12 @@ h1 {
   grid-template-columns: repeat(5, 5fr);
   gap: 2.5px;
 }
-
 .container2 a{
   position: relative;
   font-size: 20px;
   text-decoration-line: none;
   transition: 0.05s;
 }
-
 .container2 h1{
   color: #C2DAEE;
   font-size: 2.5px;
@@ -342,32 +318,28 @@ h1 {
   line-height: 25px;
   text-align: center;
 }
-
 .container2 a:hover{
   color: #3aa374;
   font-size: 25px;
 }
-
 .footer {
   width: 100%;
   right: 0px;
   padding-bottom: 20px;
   color: #C2DAEE;
 }
-
 input {
   background: #151718;
   color: #C2DAEE !important;
   text-align: center !important;
 }
-
 @media only screen and (max-width: 600px) {
   .container2 {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     font-size: 2.5px;
-    font-size: 1.75vw;
+    font-size: 2vw;
     width: 100%;
     background: #151718;
     display: grid;
@@ -376,21 +348,33 @@ input {
   }
   .container2 a {
     font-size: 2.5px;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     resize: both;
   }
-
   .container2 a:hover{
     color: #3aa374;
     font-size: 20px;
   }
   .container2 h1 {
-    font-size: 2px;
-    font-size: 2vw;
+    font-size: 3px;
+    font-size: 2.5vw;
     resize: both;
   }
+  .container {
+    display: grid;
+    gap: 50px;
+  }
+  .container input:hover {
+    padding: 10px 10px;
+    width: 25px;
+    height: 25px;
+  }
+  .container input:focus {
+    padding: 10px 10px;
+    width: 25px;
+    height: 25px;
+  }
 }
-
 html[data-theme='dark'] {
   scroll-behavior: smooth;
 }
