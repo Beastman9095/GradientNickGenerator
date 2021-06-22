@@ -346,6 +346,9 @@ input {
     grid-template-columns: repeat(5, 5fr);
     gap: 2.5px;
   }
+  .input {
+    padding-top: 30px;
+  }
   .container2 a {
     font-size: 2.5px;
     font-size: 3.5vw;
