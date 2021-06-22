@@ -335,16 +335,16 @@ input {
 }
 @media only screen and (max-width: 600px) {
   .container2 {
-    position: absolute;
     display: flex;
+    height: 7%;
     align-items: center;
     font-size: 2.5px;
     font-size: 2vw;
     width: 100%;
     background: #151718;
-    display: grid;
-    grid-template-columns: repeat(5, 5fr);
-    gap: 2.5px;
+    padding-right: 2%;
+    padding-left: 2%;
+    gap: 2%;
   }
   .input {
     padding-top: 30px;
@@ -359,7 +359,6 @@ input {
     font-size: 20px;
   }
   .container2 h1 {
-    font-size: 3px;
     font-size: 2.5vw;
     resize: both;
   }
