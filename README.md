@@ -1,6 +1,7 @@
-# botpanel
+# Gradient Nick Generator
 
-> Ham5teak Bot 3.0 Panel
+> Developed By: Beastman#1937
+> For: play.ham5teak.xyz
 
 ## Build Setup
 
